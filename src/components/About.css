@@ -1,0 +1,96 @@
+ .about {
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  border-radius: 20px;
+  margin: 80px auto;
+  width: 80%;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-content p {
+  font-size: 1.1rem;
+  color: #f0f0f0;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  line-height: 1.8;
+}
+
+.highlight {
+  color: #ffcc70;
+  font-weight: 600;
+}
+
+
+
+
+ .skills-heading {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  color: rgb(223, 214, 214)e0e;
+  font-weight: 500;
+}
+
+/* Skill Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+  margin-top: 1rem;
+}
+
+.skills-grid .skill:last-child {
+  grid-column: 3; 
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  color: #f5eeee;
+  font-weight: 500;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.skill svg {
+  font-size: 2.3rem; /* icon size */
+  margin-bottom: 0.6rem;
+  transition: transform 0.3s ease;
+}
+
+/* Add hover animation */
+.skill:hover {
+  color: #007bff;
+  transform: translateY(-5px);
+}
+
+.skill:hover svg {
+  transform: scale(1.1);
+}
+
+/* Responsive Grid Adjustments */
+@media (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+  }
+
+  
+}
+
+

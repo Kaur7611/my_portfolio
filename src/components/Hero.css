@@ -1,0 +1,118 @@
+.hero {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at center, #0a0f1f, #010409);
+  color: #fff;
+  overflow: hidden;
+  text-align: center;
+  position: relative;
+}
+
+.hero-content {
+  z-index: 2;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.hero-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 255, 255, 0.5);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+  margin-bottom: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hero-avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(0, 255, 255, 0.9);
+}
+@media (max-width: 768px) {
+  .hero-avatar {
+    margin-top: 40px; 
+  }
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.hero-title span {
+  color: #00ffff;
+  text-shadow: 0 0 20px rgba(0, 255, 255, 0.8);
+}
+
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #b0c7ff;
+  margin-top: 0.5rem;
+}
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn.primary {
+  background: linear-gradient(90deg, #00ffff, #0077ff);
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.5);
+}
+
+.btn.secondary {
+  border: 2px solid #00ffff;
+  color: #00ffff;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 25px rgba(0, 255, 255, 0.9);
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Optional glowing background animation */
+.hero::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(circle, rgba(0,255,255,0.1) 0%, transparent 70%);
+  top: -10%;
+  left: -10%;
+  animation: glow 6s infinite alternate;
+}
+
+@keyframes glow {
+  from {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  to {
+    transform: scale(1.1);
+    opacity: 0.4;
+  }
+}

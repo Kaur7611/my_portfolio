@@ -1,0 +1,3 @@
+- [x] Fix gap in .nav-menu from '1.8 rem' to '1.8rem' to add proper spacing between nav links and prevent cutoff.
+- [x] Add font-size: 1.1rem to .nav-menu a to make links slightly larger.
+- [x] Reduce gap to 1.5rem and remove padding-right from .nav-menu a to prevent contact link cutoff.

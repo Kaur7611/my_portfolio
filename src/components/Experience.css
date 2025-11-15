@@ -1,0 +1,96 @@
+.experience {
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.exp-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  padding: 30px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  text-align: left;
+}
+
+.exp-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.exp-icon {
+  font-size: 2rem;
+  color: #ffcc70;
+}
+
+.exp-card h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.company {
+  color: #ccc;
+  font-size: 1rem;
+  margin-top: 4px;
+}
+
+.exp-date {
+  font-size: 0.9rem;
+  color: #ffcc70;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.exp-points {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.exp-points li {
+  margin-bottom: 10px;
+  color: #eee;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 20px;
+}
+
+.exp-points li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #ffcc70;
+  font-size: 1.2rem;
+}
+
+.extra-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 8px 12px;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.ms-icon {
+  color: #00a2ed;
+  font-size: 1.3rem;
+}
