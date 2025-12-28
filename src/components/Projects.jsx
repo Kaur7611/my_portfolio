@@ -13,11 +13,11 @@ function Projects() {
   const allProjects = [
     {
       image: dispatcherImg,
-      title: "Dispatcher Dashboard 🚛",
+      title: "LoadPilot | Full-Stack Logistics SaaS 🚛",
       subtitle: "Trucking Management App",
       description:
-        "An advanced dashboard for truck dispatching with analytics, user authentication, and Excel export.",
-      tech: ["Python", "Flask", "SQLAlchemy", "HTML5", "CSS3"],
+        "A full-stack logistics suite that automates truck dispatching through relational data tracking, real-time analytics, and secure cloud deployment.",
+      tech: ["Python", "Flask", "SQLAlchemy", "HTML5", "Tailwind CSS"],
       live: "https://kaur7611.pythonanywhere.com/",
     },
     {
