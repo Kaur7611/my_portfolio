@@ -46,17 +46,6 @@ function Contact() {
         📄 View My Resume
       </motion.a>
 
-  <motion.a
-    href="https://kaur7611.pythonanywhere.com/"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="another-portfolio"
-    initial={{ opacity: 0, y: 30 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    transition={{ duration: 0.8 }}
-  >
-    🚀 See My Another Portfolio Built With Flask
-  </motion.a>
 </div>
 
 

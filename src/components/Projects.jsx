@@ -12,22 +12,13 @@ import contactImg from "../assets/contact_book.png";
 function Projects() {
   const allProjects = [
     {
-      image: coffeeImg,
-      title: "Coffee Culture ☕",
-      subtitle: "Modern Landing Page",
+      image: dispatcherImg,
+      title: "Dispatcher Dashboard 🚛",
+      subtitle: "Trucking Management App",
       description:
-        "A modern coffee shop landing page built with React — elegant animations, smooth scrolling, and responsive design.",
-      tech: ["React.js", "HTML5", "CSS3", "Tailwind CSS"],
-      live: "https://kaur7611.github.io/coffee_culture/",
-    },
-    {
-      image: weatherImg,
-      title: "Weather App 🌦",
-      subtitle: "Real-time Weather Dashboard",
-      description:
-        "A sleek React weather app using Open-Meteo API — shows real-time weather with location and dark mode support.",
-      tech: ["React.js", "JavaScript", "HTML5", "CSS3"],
-      live: "https://kaur7611.github.io/weather_app/",
+        "An advanced dashboard for truck dispatching with analytics, user authentication, and Excel export.",
+      tech: ["Python", "Flask", "SQLAlchemy", "HTML5", "CSS3"],
+      live: "https://kaur7611.pythonanywhere.com/",
     },
     {
       image: blogImg,
@@ -38,24 +29,27 @@ function Projects() {
       tech: ["Python", "Flask", "SQL", "HTML5", "CSS3"],
       live: "https://k7611.pythonanywhere.com/",
     },
+    
     {
-      image: dispatcherImg,
-      title: "Dispatcher Dashboard 🚛",
-      subtitle: "Trucking Management App",
+      image: weatherImg,
+      title: "Weather App 🌦",
+      subtitle: "Real-time Weather Dashboard",
       description:
-        "An advanced dashboard for truck dispatching with analytics, user authentication, and Excel export.",
-      tech: ["Python", "Flask", "SQLAlchemy", "HTML5", "CSS3"],
-      live: "https://github.com/Kaur7611/loadpilot-dashboard",
+        "A sleek React weather app using Open-Meteo API — shows real-time weather with location and dark mode support.",
+      tech: ["React.js", "JavaScript", "HTML5", "CSS3"],
+      live: "https://kaur7611.github.io/weather_app/",
     },
     {
-      image: contactImg,
-      title: "Contact Book 📒",
-      subtitle: "Personal Contact Manager",
+      image: coffeeImg,
+      title: "Coffee Culture ☕",
+      subtitle: "Modern Landing Page",
       description:
-        "Full-stack contact manager app built using Flask and SQLite — includes CRUD operations and authentication.",
-      tech: ["Python", "Flask", "SQL", "HTML5", "CSS3"],
-      live: "https://github.com/Kaur7611/contact-book",
+        "A modern coffee shop landing page built with React — elegant animations, smooth scrolling, and responsive design.",
+      tech: ["React.js", "HTML5", "CSS3", "Tailwind CSS"],
+      live: "https://kaur7611.github.io/coffee_culture/",
     },
+    
+    
   ];
 
   const [showAll, setShowAll] = useState(false);
